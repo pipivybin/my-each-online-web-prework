@@ -2,7 +2,7 @@ def my_each(a)
   if block_given?
   i = 0
   while i < a.length
-    yield(a)
+    yield(a[i])
     i += 1
   end
 else "nothing"
