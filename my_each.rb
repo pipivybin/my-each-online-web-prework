@@ -11,6 +11,6 @@ a
 end
 
 
-my_each(a) do
+my_each("a") do
   |x|  "x"
 end
